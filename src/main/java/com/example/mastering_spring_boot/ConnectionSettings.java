@@ -16,9 +16,11 @@ public class ConnectionSettings {
 
     @Bean
     public void display(){
+        System.out.println("CONNECTION SETTINGS");
         System.out.println("Host: " + host);
         System.out.println("Port: " + port);
         System.out.println("LogDir: " + logDir);
         System.out.println("Timeout: " + timeout);
+        System.out.println();
     }
 }
