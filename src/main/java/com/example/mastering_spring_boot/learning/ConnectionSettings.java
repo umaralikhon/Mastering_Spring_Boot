@@ -1,4 +1,4 @@
-package com.example.mastering_spring_boot;
+package com.example.mastering_spring_boot.learning;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
@@ -14,7 +14,7 @@ public class ConnectionSettings {
     private String logDir;
     private int timeout;
 
-    @Bean
+//    @Bean
     public void display(){
         System.out.println("CONNECTION SETTINGS");
         System.out.println("Host: " + host);

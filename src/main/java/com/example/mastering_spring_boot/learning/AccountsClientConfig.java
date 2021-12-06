@@ -1,7 +1,6 @@
-package com.example.mastering_spring_boot;
+package com.example.mastering_spring_boot.learning;
 
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
-import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
@@ -13,7 +12,7 @@ public class AccountsClientConfig {
         this.connectionSettings = connectionSettings;
     }
 
-    @Bean
+//    @Bean
     public void displayAccountClientConfig(){
         System.out.println("ACCOUNT CLIENT CONFIG");
         System.out.println("Host: " + connectionSettings.getHost());
